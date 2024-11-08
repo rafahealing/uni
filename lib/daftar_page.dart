@@ -7,8 +7,9 @@ class DaftarPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daftar', style: TextStyle(color: Colors.white),),
+        title: Text('Ringkasan', style: TextStyle(color: Colors.white),),
         backgroundColor: Colors.grey,
+        centerTitle: true,
       ),
     );
   }

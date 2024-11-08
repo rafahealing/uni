@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                     return const DaftarPage();
                   }));
                 },
-                child: const Text('Formulir'),
+                child: const Text('Ringkasan'),
               ),
               ],
             )
