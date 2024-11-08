@@ -11,6 +11,21 @@ class DaftarPage extends StatelessWidget {
         backgroundColor: Colors.grey,
         centerTitle: true,
       ),
+      body: ListView(
+        children: [
+          ListTile(
+            title: Text('nama'),
+            subtitle: Text('Description 1'),
+            leading: Icon(Icons.check),
+          ),
+          ListTile(
+            title: Text('umur'),
+            subtitle: Text('Description 2'),
+            leading: Icon(Icons.check),
+          ),
+          // Add more ListTiles as needed
+        ],
+      ),
     );
   }
 }
